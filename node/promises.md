@@ -152,7 +152,7 @@ prom
 // 'done2'
 ```
 
-* We **have** to return something from each `then`, otherwise it doesn't get passed to the next `then`
+- We **have** to return something from each `then`, otherwise it doesn't get passed to the next `then`
 
 ```js
 const prom = Promise.resolve("done");
@@ -165,7 +165,7 @@ prom
 // 'undefined'
 ```
 
-* This is different to forking a promise chain
+- This is different to forking a promise chain
 
 ```js
 const prom = Promise.resolve("done");
